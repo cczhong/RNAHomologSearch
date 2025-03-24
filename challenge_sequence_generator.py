@@ -69,7 +69,8 @@ def generate_challenge_sequences(msa_file, file_format, num_sequences, seq_lengt
         print(f"Error: {e}")
 
 def main():
-    file_name = input("Enter the file name: ")
+    #change the name of the file here in the code
+    file_name = "RF00017.sto"
     generate_challenge_sequences(file_name, "stockholm", 5, 100, 40)
 
 main()
